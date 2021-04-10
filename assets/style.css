@@ -4,7 +4,14 @@ html, body {
     position: relative;
     overflow: hidden;
 }
-  
+a {
+    color: #fff !important;
+}
+
+.nav-link.active {
+    color: #495057 !important;
+}
+
 .background-image {
     width: 110%;
     height: 110%;
