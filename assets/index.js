@@ -6,7 +6,7 @@ document.addEventListener('mousemove', (e) => {
     const mouseX = e.clientX / windowWidth;
     const mouseY = e.clientY / windowHeight;
 
-    bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
+    bg.style.transform = `translate3d(-${mouseX/5}%, -${mouseY/5}%, 0)`;
 });
 
 maxheight = 0;
