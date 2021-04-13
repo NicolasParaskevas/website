@@ -20,3 +20,7 @@ a {
     position: absolute;
     background: url('images/bg.jpg') no-repeat left center / cover;
 }
+
+hr {
+    border-color: white !important;
+}

@@ -19,5 +19,5 @@ jQuery.each(tabs, function() {
     }
 });
 jQuery.each(tabs, function() {
-    jQuery(this).height(maxheight);
+    jQuery(this).minheight(maxheight);
 });
