@@ -21,3 +21,7 @@ html, body {
 hr {
     border-color: white !important;
 }
+
+.bg-dark-opacity {
+    background: rgba(52, 58, 64, 0.7) !important;
+}
